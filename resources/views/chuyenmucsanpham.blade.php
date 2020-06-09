@@ -12,7 +12,7 @@
     <meta name="copyright" content="Venus Charm">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-    <title>Trang chủ</title>
+    <title>Chuyên mục</title>
 
     <!-- các thẻ meta -->
 
@@ -50,7 +50,7 @@
     <link rel="stylesheet"  href="{{asset('css/style.css')}}"/>
 </head>
 <!-- yêu cầu người code chức năng để ý kỹ code html của các trang copy thiếu hay tự làm lỗi thì tự chỉnh -->
-<body>
+<body class="page-child">
     <header id="header-site">
         <div class="wp-header">
              <div id="sticky-wrapper" class="sticky-wrapper">
@@ -277,7 +277,289 @@
     </header> <!-- end header -->
     <!-- Nội dung conter -->
     <main id="main-site">
-         
+         <section class="sec-main-page">
+            <div class="wp-list-tin">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="wp-boloc" style="position: relative">
+                            <div class="wp-title">
+                                <h1 class="h1-title-danhmuc">ÁO LÓT</h1>
+                                <ul class="ul-b list-link-title hidden-xs hidden-sm" style="bottom: 3px">
+                                    <li><a href="">ĐỆM DÀY</a></li>
+                                    <li><a href="">ĐỆM VỪA</a></li>
+                                    <li><a href="">ĐỆM MỎNG</a></li>
+                                    <li><a href="">KHÔNG GỌNG</a></li>
+                                    <li><a href="">CÓ GỌNG</a></li>
+                                    <li><a href="">BRALETTE</a></li>
+                                    <li><a href="">QUÂY NGANG</a></li>
+                                    <li><a href="">PHỤ KIỆN</a></li>
+                                    <li><a href="">ÁO LÓT TẠO KIỂU</a></li>
+                                </ul>
+                                <ul class="ul-b list-link-title slide-sp-title owl-carousel hidden-md hidden-lg" >
+                                    <li class="item"><a href="">ĐỆM DÀY</a></li>
+                                    <li class="item"><a href="">ĐỆM VỪA</a></li>
+                                    <li class="item"><a href="">ĐỆM MỎNG</a></li>
+                                    <li class="item"><a href="">KHÔNG GỌNG</a></li>
+                                    <li class="item"><a href="">CÓ GỌNG</a></li>
+                                    <li class="item"><a href="">BRALETTE</a></li>
+                                    <li class="item"><a href="">QUÂY NGANG</a></li>
+                                    <li class="item"><a href="">PHỤ KIỆN</a></li>
+                                    <li class="item"><a href="">ÁO LÓT TẠO KIỂU</a></li>
+                                </ul>
+                            </div>
+                            <div class="filter">
+                                <div class="boloc-a">
+                                    <button class="btn-click-boloc">Bộ lọc</button>
+                                    <button class="btn btn-danger close-fil"><i class="fas fa-times"></i></button>
+                                    <div class="wp-bo-loc-1">
+                                        <h2 class="h2-title">Bộ lọc nâng cao</h2>
+
+                                        <div class="bl00 box-loc1">
+                                            <h4 class="p-mon">Giá sản phẩm</h4>
+
+                                            <ul class="ul-b list-boloc boloc1">
+                                                <li>
+                                                    <label class="checkbox-edit fillter-label tpInputLabel fill-line-0" data-line="fill-line-0"> Dưới 100.000 
+                                                        <input type="checkbox" class="filter" name="attr[priceprd]" value="53" id="item-53">
+                                                        <span class="checkmark"></span>
+                                                    </label>
+                                                </li>
+                                                <li>
+                                                    <label class="checkbox-edit fillter-label tpInputLabel fill-line-0" data-line="fill-line-0"> 100.000 - 200.000 
+                                                        <input type="checkbox" class="filter" name="attr[priceprd]" value="54" id="item-54">
+                                                        <span class="checkmark"></span>
+                                                    </label>
+                                                </li>
+                                                <li>
+                                                    <label class="checkbox-edit fillter-label tpInputLabel fill-line-0" data-line="fill-line-0"> 200.000 - 300.000      <input type="checkbox" class="filter" name="attr[priceprd]" value="55" id="item-55">
+                                                        <span class="checkmark"></span>
+                                                    </label>
+                                                </li>
+                                                <li>
+                                                    <label class="checkbox-edit fillter-label tpInputLabel fill-line-0" data-line="fill-line-0"> Trên 300.000 
+                                                     <input type="checkbox" class="filter" name="attr[priceprd]" value="56" id="item-56">
+                                                        <span class="checkmark"></span>
+                                                    </label>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="bl00 box-loc1">
+                                            <h4 class="p-mon">Gọng</h4>
+
+                                            <ul class="ul-b list-boloc boloc1">
+                                                <li>
+                                                    <label class="checkbox-edit fillter-label tpInputLabel fill-line-1" data-line="fill-line-1"> Có gọng 
+                                                        <input type="checkbox" class="filter" name="attr[gong-gong]" value="57" id="item-57">
+                                                        <span class="checkmark"></span>
+                                                    </label>
+                                                </li>
+                                                <li>
+                                                    <label class="checkbox-edit fillter-label tpInputLabel fill-line-1" data-line="fill-line-1"> Không gọng         
+                                                        <input type="checkbox" class="filter" name="attr[gong-gong]" value="58" id="item-58">
+                                                        <span class="checkmark"></span>
+                                                    </label>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="bl00 box-loc1">
+                                            <h4 class="p-mon">Đệm</h4>
+                                            <ul class="ul-b list-boloc boloc1">
+                                                <li>
+                                                    <label class="checkbox-edit fillter-label tpInputLabel fill-line-2" data-line="fill-line-2"> Đệm dày 
+                                                     <input type="checkbox" class="filter" name="attr[dem-ao-lot]" value="59" id="item-59">
+                                                        <span class="checkmark"></span>
+                                                    </label>
+                                                </li>
+                                                <li>
+                                                    <label class="checkbox-edit fillter-label tpInputLabel fill-line-2" data-line="fill-line-2"> Đệm vừa  
+                                                        <input type="checkbox" class="filter" name="attr[dem-ao-lot]" value="60" id="item-60">
+                                                        <span class="checkmark"></span>
+                                                    </label>
+                                                </li>
+                                                <li>
+                                                    <label class="checkbox-edit fillter-label tpInputLabel fill-line-2" data-line="fill-line-2"> Đệm mỏng               <input type="checkbox" class="filter" name="attr[dem-ao-lot]" value="61" id="item-61">
+                                                        <span class="checkmark"></span>
+                                                    </label>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <form class="d-none hidden" id="Formfilter" method="post" action="">
+                                    <input type="text" value="" name="attr" id="attr" class="confirm-filter">
+                                    <input type="text" value="1" name="page" id="page" class="">
+                                    <input type="text" value="85" name="cataloguesid" id="cataloguesid" class="">
+                                    <input type="submit" value="" name="submit" id="filter_submit" class="">
+                                </form>
+                            </div>
+                        </div>
+
+                        <!-- phần sản phẩm -->
+                        <div class="wp-list-sp-home list-danhmyc-spsp">
+                            <div class="row row-eidt-0" style="margin-left: 0px;margin-right: 0px;" id="ajax-product-list">
+                                <!--   bắt bầu vòng lặp sản phẩm -->
+                                <div class="col-md-3 col-sm-3 col-xs-6">
+                                    <div class="wp-item-sp">
+                                        <!--màu sắc -->
+                                        <div style="position: relative">
+                                            <div class="wp-list-sp-slide">
+                                                <div class="wp-item-sp-main active">
+                                                    <div class="slide-sp owl-carousel">
+                                                        <div class="item">
+                                                            <div class="wp-img-slide-sp">
+                                                                <a href="">
+                                                                    <img class="el_image" src="{{asset('images/1589760847.jpg')}}">
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="item">
+                                                            <div class="wp-img-slide-sp">
+                                                                <a href="">
+                                                                    <img class="el_image" src="{{asset('images/1589760841.jpg')}}">
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div> <!-- end slider 1 -->
+                                                <div class="wp-item-sp-main">
+                                                    <div class="slide-sp owl-carousel">
+                                                        <div class="item">
+                                                            <div class="wp-img-slide-sp">
+                                                                <a href="">
+                                                                    <img class="el_image" src="{{asset('images/1589760889.jpg')}}">
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                         <div class="item">
+                                                            <div class="wp-img-slide-sp">
+                                                                <a href="">
+                                                                    <img class="el_image" src="{{asset('images/1589760896.jpg')}}">
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div> <!-- end slider 2 -->
+                                            </div>
+                                            <div class="wp-add-to-cart">
+                                                <a href="">
+                                                    <span>Thêm vào giỏ</span>
+                                                    <i class="fas fa-shopping-bag"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <!--end màu sắc-->
+                                        <div class="wp-name-sp">
+                                            <h3 class="h3-title">
+                                                <a href="">Áo 6883 Cao Cấp</a>
+                                            </h3>
+                                        </div>
+                                        <div class="wp-price-sp">
+                                            <span class="int">450.000đ</span>
+                                        </div>
+                                        <!--màu sắc đầu tiên-->
+                                        <div class="wp-list-check-color">
+                                            <ul class="ul-b list-color-sp">
+                                                <li class="item-color color-1 active">
+                                                    <span style="background: url('{{asset('images/1589760834.jpg')}}')"></span>
+                                                </li>
+                                                <li class="item-color color-1">
+                                                    <span style="background: url('{{asset('images/1589760841.jpg')}}')"></span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <!--end màu sắc đầu tiên-->
+                                    </div>
+                                </div> <!-- end 1 sản phẩm -->
+                                 <div class="col-md-3 col-sm-3 col-xs-6">
+                                    <div class="wp-item-sp">
+                                        <!--màu sắc -->
+                                        <div style="position: relative">
+                                            <div class="wp-list-sp-slide">
+                                                <div class="wp-item-sp-main active">
+                                                    <div class="slide-sp owl-carousel">
+                                                        <div class="item">
+                                                            <div class="wp-img-slide-sp">
+                                                                <a href="">
+                                                                    <img class="el_image" src="{{asset('images/1589760847.jpg')}}">
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="item">
+                                                            <div class="wp-img-slide-sp">
+                                                                <a href="ao-6883-cao-cap-p847.html">
+                                                                    <img class="el_image" src="{{asset('images/1589760841.jpg')}}">
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div> <!-- end slider 1 -->
+                                                <div class="wp-item-sp-main">
+                                                    <div class="slide-sp owl-carousel">
+                                                        <div class="item">
+                                                            <div class="wp-img-slide-sp">
+                                                                <a href="">
+                                                                    <img class="el_image" src="{{asset('images/1589760889.jpg')}}">
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                         <div class="item">
+                                                            <div class="wp-img-slide-sp">
+                                                                <a href="">
+                                                                    <img class="el_image" src="{{asset('images/1589760896.jpg')}}">
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div> <!-- end slider 2 -->
+                                            </div>
+                                            <div class="wp-add-to-cart">
+                                                <a href="">
+                                                    <span>Thêm vào giỏ</span>
+                                                    <i class="fas fa-shopping-bag"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <!--end màu sắc-->
+                                        <div class="wp-name-sp">
+                                            <h3 class="h3-title">
+                                                <a href="">Áo 6883 Cao Cấp</a>
+                                            </h3>
+                                        </div>
+                                        <div class="wp-price-sp">
+                                            <span class="int">450.000đ</span>
+                                        </div>
+                                        <!--màu sắc đầu tiên-->
+                                        <div class="wp-list-check-color">
+                                            <ul class="ul-b list-color-sp">
+                                                <li class="item-color color-1 active">
+                                                    <span style="background: url('{{asset('images/1589760834.jpg')}}')"></span>
+                                                </li>
+                                                <li class="item-color color-1">
+                                                    <span style="background: url('{{asset('images/1589760841.jpg')}}')"></span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <!--end màu sắc đầu tiên-->
+                                    </div>
+                                </div> <!-- end 1 sản phẩm -->
+                            </div>
+                        </div>
+
+                        <div id="ajax-product-pagination" style="text-align: center">
+                            <div class="phantrang text-center">
+                                <ul class="pagination">
+                                    <li><a href="#" rel="prev"><i class="fa fa-angle-double-left"></i></a></li>
+                                    <li class="active"><a>1</a></li>
+                                    <li><a href="#">2</a></li>
+                                    <li><a href="#">3</a></li>
+                                    <li><a href="#" rel="next"><i class="fa fa-angle-double-right"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <!-- chân trang -->

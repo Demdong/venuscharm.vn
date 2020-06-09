@@ -126,6 +126,22 @@ jQuery(document).ready(function($) {
         $(".wp-list-form-dosize").find(".form-2").removeClass("active");
     });
 
+    $(".btn-click-boloc").click( function (){
+        $('body, html').addClass("active");
+        $(this).parent().addClass("open");
+        $(this).parent().find(".wp-bo-loc-1").addClass("open");
+    });
+
+    $(".close-fil").click( function (){
+        $('body, html').removeClass("active");
+
+        $(this).parent().removeClass("open");
+
+        $(this).parent().find(".wp-bo-loc-1").removeClass("open");
+
+    });
+
+
     $('.slide-uudai').owlCarousel({
         loop:true,
         margin:1,

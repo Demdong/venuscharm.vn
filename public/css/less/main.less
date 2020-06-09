@@ -308,36 +308,37 @@
 	    float: left;
 	    margin-right: 20px;
 	}
-	.list-link-title {
-	    float: left;
-	    width: ~'calc(100% - 120px)';
-        width: ~'-moz-calc(100% - 120px)';
-        width: ~'-webkit-calc(100% - 120px)';
-	    position: absolute;
-	    right: 0px;
-	    bottom: 0px;
-	    margin: 0;
-	    list-style: none;
-	    padding: 0;
-	    li{
-	    	float: left;
-		    margin: 0 10px;
-		    font-size: 13px;
-		    &:hover{
-		    	a{
-	    		    color: @primary_color;
-					text-decoration: underline;
-		    	}
-		    }
-		    a {
-			    overflow: hidden;
-			    display: -webkit-box !important;
-			    -webkit-line-clamp: 1;
-			    font-weight: 500;
-			    -webkit-box-orient: vertical;
-			}
+
+}
+.list-link-title {
+    float: left;
+    width: ~'calc(100% - 120px)';
+    width: ~'-moz-calc(100% - 120px)';
+    width: ~'-webkit-calc(100% - 120px)';
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    li{
+    	float: left;
+	    margin: 0 10px;
+	    font-size: 13px;
+	    &:hover{
+	    	a{
+    		    color: @primary_color;
+				text-decoration: underline;
+	    	}
 	    }
-	}
+	    a {
+		    overflow: hidden;
+		    display: -webkit-box !important;
+		    -webkit-line-clamp: 1;
+		    font-weight: 500;
+		    -webkit-box-orient: vertical;
+		}
+    }
 }
 .wp-list-sp-home {
 	.col-md-3 {
@@ -570,7 +571,19 @@
 }
 
 .sec-home-11{
-
+   .title-instagram i {
+	    font-size: 30px;
+	    margin-bottom: 10px;
+	}
+	h2{
+		    font-size: 30px;
+		    font-weight: 700;
+	}
+	h4 {
+	    color: @primary_color;
+	        font-size: 18px;
+	    font-weight: 700;
+	}
 }
 
 .sec-instagam{

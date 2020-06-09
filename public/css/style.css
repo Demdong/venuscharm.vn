@@ -59,6 +59,7 @@ body {
   margin: 0;
   color: #333;
   font-size: 14px;
+  font-weight: 300;
   line-height: 1.5;
   font-family: 'Montserrat', sans-serif;
   overflow-x: hidden;
@@ -75,19 +76,20 @@ h5,
 h6 {
   color: #333;
   margin: 0 0 10px 0;
+  font-weight: 600;
   line-height: 1.1;
 }
 h1 {
-  font-size: 20px;
+  font-size: 36px;
 }
 h2 {
-  font-size: 18px;
+  font-size: 30px;
 }
 h3 {
-  font-size: 16px;
+  font-size: 24px;
 }
 h4 {
-  font-size: 15px;
+  font-size: 18px;
 }
 h5 {
   font-size: 14px;
@@ -363,6 +365,13 @@ label {
 /*--------------------------------------------------------------
 # header
 --------------------------------------------------------------*/
+.page-child .wp-main-header {
+  position: initial;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  box-shadow: 0px 0px 12px #afafaf;
+  background: #fff;
+}
 .wp-main-header {
   position: absolute;
   top: 50px;
@@ -973,7 +982,7 @@ span.pro-price-view {
   float: left;
   margin-right: 20px;
 }
-.wp-title-sec-sp .list-link-title {
+.list-link-title {
   float: left;
   width: calc(100% - 120px);
   width: -moz-calc(100% - 120px);
@@ -985,16 +994,16 @@ span.pro-price-view {
   list-style: none;
   padding: 0;
 }
-.wp-title-sec-sp .list-link-title li {
+.list-link-title li {
   float: left;
   margin: 0 10px;
   font-size: 13px;
 }
-.wp-title-sec-sp .list-link-title li:hover a {
+.list-link-title li:hover a {
   color: #c73550;
   text-decoration: underline;
 }
-.wp-title-sec-sp .list-link-title li a {
+.list-link-title li a {
   overflow: hidden;
   display: -webkit-box !important;
   -webkit-line-clamp: 1;
@@ -1204,6 +1213,19 @@ span.pro-price-view {
   text-transform: uppercase;
   line-height: 1.6;
 }
+.sec-home-11 .title-instagram i {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.sec-home-11 h2 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.sec-home-11 h4 {
+  color: #c73550;
+  font-size: 18px;
+  font-weight: 700;
+}
 .sec-instagam .row {
   margin-left: 0px;
   margin-right: 0px;
@@ -1250,15 +1272,344 @@ span.pro-price-view {
 /*--------------------------------------------------------------
 # archive
 --------------------------------------------------------------*/
+.sec-main-page .wp-boloc {
+  display: table;
+  width: 100%;
+  margin: 30px 0px 20px;
+}
+.sec-main-page .wp-title {
+  float: left;
+}
+.sec-main-page .wp-title h1 {
+  font-size: 26px;
+  margin-bottom: 0px;
+  float: left;
+  font-weight: 700;
+}
+.wp-boloc .filter {
+  float: right;
+  display: flex;
+  align-items: center;
+}
+.boloc-a.open .close-fil {
+  right: 38%;
+  width: auto;
+  height: auto;
+  opacity: 1;
+  padding: 5px 10px;
+}
+.boloc-a .close-fil {
+  position: fixed;
+  top: 10%;
+  right: 0px;
+  padding: 0;
+  transition: all 0.6s ease-in-out;
+  opacity: 0;
+  width: 0px;
+  height: 0px;
+  border: 0;
+  font-size: 20px;
+  z-index: 9999999;
+}
+.boloc-a > button {
+  border: 0px solid #ccc;
+  border-radius: 0px;
+  padding: 5px 10px;
+}
+.boloc-a > button.btn-click-boloc {
+  background-color: #efefef;
+  border-color: #efefef;
+  color: #333;
+}
+.boloc-a .wp-bo-loc-1 {
+  width: 38%;
+  right: 0px;
+  transition: transform 0.5s;
+  text-align: left;
+  transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  -moz-transform: translateX(100%);
+  position: fixed;
+  top: 0px;
+  bottom: 0;
+  z-index: 9999999;
+  padding: 0px;
+  margin: 0px;
+  outline: 1px solid transparent;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background: #fff;
+  height: calc(100vh);
+  overflow-y: scroll;
+}
+.boloc-a .wp-bo-loc-1.open {
+  transform: translateX(0);
+  -ms-transform: translateX(0);
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+}
+.wp-bo-loc-1 > .h2-title {
+  padding: 10px 20px;
+  background: #d03f47;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+.wp-bo-loc-1 .bl00 {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px dotted #ccc;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.wp-bo-loc-1 .bl00 .list-boloc {
+  display: table;
+  width: 100%;
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+.wp-bo-loc-1 .bl00 .list-boloc li label {
+  margin-top: 0px;
+}
+/* css checkbox */
+.checkbox-edit {
+  display: block;
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-weight: normal;
+  line-height: 1;
+}
+.checkbox-edit input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  background-color: #eee;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+}
+.checkbox-edit:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+.checkbox-edit input:checked ~ .checkmark {
+  background-color: #b83737;
+}
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.checkbox-edit input:checked ~ .checkmark:after {
+  display: block;
+}
+.checkbox-edit .checkmark:after {
+  left: 4px;
+  top: 1px;
+  width: 5px;
+  height: 9px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+#ajax-product-pagination .pagination {
+  display: inline-block;
+  padding-left: 0;
+  margin: 20px 0;
+  border-radius: 4px;
+}
+#ajax-product-pagination .pagination > li {
+  display: inline;
+}
+#ajax-product-pagination .pagination > li a,
+#ajax-product-pagination .pagination > li span {
+  position: relative;
+  float: left;
+  padding: 6px 12px;
+  margin-left: -1px;
+  line-height: 1.42857143;
+  color: #333333;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+#ajax-product-pagination .pagination > li.active a,
+#ajax-product-pagination .pagination > li.active a:focus,
+#ajax-product-pagination .pagination > li.active a:hover,
+#ajax-product-pagination .pagination > li.active span,
+#ajax-product-pagination .pagination > li.active span:focus,
+#ajax-product-pagination .pagination > li.active span:hover {
+  z-index: 3;
+  color: #fff;
+  cursor: default;
+  background-color: #c73550;
+  border-color: #c73550;
+}
+#ajax-product-pagination .pagination > li:first-child a,
+#ajax-product-pagination .pagination > li:first-child span {
+  margin-left: 0;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
 /*--------------------------------------------------------------
 # single
 --------------------------------------------------------------*/
 /*--------------------------------------------------------------
 # footer
 --------------------------------------------------------------*/
+#footer-site {
+  padding-top: 15px;
+  margin-top: 15px;
+  border-top: 1px solid #ccc;
+}
+.wp-footer-top {
+  padding: 0 50px;
+}
+.wp-ft-top .h3-title-ft {
+  font-size: 14px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+.wp-ft-top .p-phone {
+  display: flex;
+  font-weight: 300;
+  align-items: center;
+}
+.wp-ft-top .p-phone i {
+  width: 25px;
+  height: 25px;
+  background: #e52c25;
+  color: #fff;
+  border-radius: 100%;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wp-ft-top .p-span {
+  font-weight: 300;
+  font-size: 13px;
+}
+.wp-ft-top .form-dk-email {
+  position: relative;
+}
+.wp-ft-top .form-dk-email input {
+  border-radius: 0px;
+  box-shadow: none;
+}
+.wp-ft-top .form-dk-email button {
+  border-radius: 0px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background: #333333;
+  color: #fff;
+}
+.wp-ft-top .form-dk-email button:hover {
+  background: #fcdcda !important;
+  border: 1px solid #fcdcda !important;
+  text-transform: uppercase;
+  color: #c73550;
+}
+.wp-ft-top .wp-form-dk label {
+  margin-top: 0;
+  padding-left: 0;
+  font-weight: 300;
+}
+.wp-ft-top .list-mxh {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+.wp-ft-top .list-mxh li {
+  float: left;
+  margin-right: 20px;
+}
+.wp-ft-top .list-mxh li i {
+  font-size: 30px;
+  color: #666;
+}
+.wp-ft-top .list-mxh li .fa-zalo img {
+  width: 35px;
+  height: 35px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.wp-ft-top .list-mxh li .fa-zalo:hover img {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+.wp-ft-top .list-mxh li:hover i.fa-facebook-f {
+  color: #3b5998;
+}
+.wp-ft-top .list-mxh li:hover i.fa-instagram {
+  color: #7b472c;
+}
+.wp-ft-top .list-mxh li:hover i.fa-youtube {
+  color: #cc181e;
+}
+.wp-footer-main {
+  background: #f1f1f1;
+  margin: 20px 0px 0px;
+  padding: 20px 50px;
+}
+.wp-footer-main .h3-title-ft {
+  font-size: 14px;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+}
+.wp-ft-main .list-ft-main {
+  margin-top: 20px;
+}
+.list-ft-main {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+.list-ft-main li {
+  margin-bottom: 5px;
+  font-size: 13px;
+  font-weight: 300;
+}
+.list-ft-main li:hover a {
+  color: #c73550;
+  padding-left: 5px;
+}
+.wp-footer-bottom .row {
+  padding: 0px 50px;
+  line-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 300;
+}
 /*--------------------------------------------------------------
 # responsive
 --------------------------------------------------------------*/
+@media (min-width: 767px) {
+  .wp-boloc .filter {
+    position: absolute;
+    right: 0px;
+  }
+}
 @media (min-width: 1200px) {
   span.dropdown-toggle {
     display: none;
@@ -1286,6 +1637,9 @@ span.pro-price-view {
   }
   .sec-instagam .inst-2 img {
     height: 500px;
+  }
+  .sec-instagam .inst-2 {
+    padding: 0px !important;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
