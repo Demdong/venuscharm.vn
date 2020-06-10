@@ -3,103 +3,105 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>AdminLTE 3 | Dashboard</title>
+  <title>AdminLTE 2 | Dashboard</title>
   <!-- Tell the browser to be responsive to screen width -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <!-- Bootstrap 3.3.7 -->
+  <link rel="stylesheet" href="{{ asset('public/admin/AdminLTE/bower_components/bootstrap/dist/css/bootstrap.min.css')}}">
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="{{ asset('public/admin/AdminLTE/plugins/fontawesome-free/css/all.min.css') }}">
+  <link rel="stylesheet" href="{{ asset('public/admin/AdminLTE/bower_components/font-awesome/css/font-awesome.min.css')}}">
   <!-- Ionicons -->
-  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-  <!-- Tempusdominus Bbootstrap 4 -->
-  <link rel="stylesheet" href="{{ asset('public/admin/AdminLTE/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css') }}">
-  <!-- iCheck -->
-  <link rel="stylesheet" href="{{ asset('public/admin/AdminLTE/plugins/icheck-bootstrap/icheck-bootstrap.min.css') }}">
-  <!-- JQVMap -->
-  <link rel="stylesheet" href="{{ asset('public/admin/AdminLTE/plugins/jqvmap/jqvmap.min.css') }}">
+  <link rel="stylesheet" href="{{ asset('public/admin/AdminLTE/bower_components/Ionicons/css/ionicons.min.css')}}">
   <!-- Theme style -->
-  <link rel="stylesheet" href="{{ asset('public/admin/AdminLTE/dist/css/adminlte.min.css') }}">
-  <!-- overlayScrollbars -->
-  <link rel="stylesheet" href="{{ asset('public/admin/AdminLTE/plugins/overlayScrollbars/css/OverlayScrollbars.min.css') }}">
+  <link rel="stylesheet" href="{{ asset('public/admin/AdminLTE/dist/css/AdminLTE.min.css')}}">
+  <!-- AdminLTE Skins. Choose a skin from the css/skins
+       folder instead of downloading all of them to reduce the load. -->
+  <link rel="stylesheet" href="{{ asset('public/admin/AdminLTE/dist/css/skins/_all-skins.min.css')}}">
+  <!-- Morris chart -->
+  <link rel="stylesheet" href="{{ asset('public/admin/AdminLTE/bower_components/morris.js/morris.css')}}">
+  <!-- jvectormap -->
+  <link rel="stylesheet" href="{{ asset('public/admin/AdminLTE/bower_components/jvectormap/jquery-jvectormap.css')}}">
+  <!-- Date Picker -->
+  <link rel="stylesheet" href="{{ asset('public/admin/AdminLTE/bower_components/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css')}}">
   <!-- Daterange picker -->
-  <link rel="stylesheet" href="{{ asset('public/admin/AdminLTE/plugins/daterangepicker/daterangepicker.css') }}">
-  <!-- summernote -->
-  <link rel="stylesheet" href="{{ asset('public/admin/AdminLTE/plugins/summernote/summernote-bs4.css') }}">
-  <!-- Google Font: Source Sans Pro -->
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+  <link rel="stylesheet" href="{{ asset('public/admin/AdminLTE/bower_components/bootstrap-daterangepicker/daterangepicker.css')}}">
+  <!-- bootstrap wysihtml5 - text editor -->
+  <link rel="stylesheet" href="{{ asset('public/admin/AdminLTE/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css')}}">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+  <!-- Google Font -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
 </head>
-<body class="hold-transition sidebar-mini layout-fixed">
+<body class="hold-transition skin-blue sidebar-mini">
 <div class="wrapper">
-
-@include('admin.header')
-@include('admin.sidebar')
-
+    @include('admin.header')
+    @include('admin.sidebar')
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
     <!-- Content Header (Page header) -->
-    <div class="content-header">
-      <div class="container-fluid">
-        <div class="row mb-2">
-          <div class="col-sm-6">
-            <h1 class="m-0 text-dark">TRANG TỔNG QUAN</h1>
-          </div><!-- /.col -->
-          <div class="col-sm-6">
-            <ol class="breadcrumb float-sm-right">
-              <li class="breadcrumb-item"><a href="#">Trang chủ</a></li>
-              <li class="breadcrumb-item active">Dashboard v1</li>
-            </ol>
-          </div><!-- /.col -->
-        </div><!-- /.row -->
-      </div><!-- /.container-fluid -->
-    </div>
-    <!-- /.content-header -->
-
+    <section class="content-header">
+      <h1>
+        Dashboard
+        <small>Control panel</small>
+      </h1>
+      <ol class="breadcrumb">
+        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li class="active">Dashboard</li>
+      </ol>
+    </section>
     <!-- Main content -->
     <section class="content">
-      <div class="container-fluid">
-       @yield('main')
-      </div>
+         @yield('main')
     </section>
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->
-@include('admin.footer')
-
+  @include('admin.footer')
 </div>
 <!-- ./wrapper -->
 
-<!-- jQuery -->
-<script src="{{ asset('public/admin/AdminLTE/plugins/jquery/jquery.min.js') }}"></script>
+<!-- jQuery 3 -->
+<script src="{{ asset('public/admin/AdminLTE/bower_components/jquery/dist/jquery.min.js')}}"></script>
 <!-- jQuery UI 1.11.4 -->
-<script src="{{ asset('public/admin/AdminLTE/plugins/jquery-ui/jquery-ui.min.js') }}"></script>
+<script src="{{ asset('public/admin/AdminLTE/bower_components/jquery-ui/jquery-ui.min.js')}}"></script>
 <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
 <script>
-  $.widget.bridge('uibutton', $.ui.button)
+  $.widget.bridge('uibutton', $.ui.button);
 </script>
-<!-- Bootstrap 4 -->
-<script src="{{ asset('public/admin/AdminLTE/plugins/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
-<!-- ChartJS -->
-<script src="{{ asset('public/admin/AdminLTE/plugins/chart.js/Chart.min.js') }}"></script>
+<!-- Bootstrap 3.3.7 -->
+<script src="{{ asset('public/admin/AdminLTE/bower_components/bootstrap/dist/js/bootstrap.min.js')}}"></script>
+<!-- Morris.js charts -->
+<script src="{{ asset('public/admin/AdminLTE/bower_components/raphael/raphael.min.js')}}"></script>
+<script src="{{ asset('public/admin/AdminLTE/bower_components/morris.js/morris.min.js')}}"></script>
 <!-- Sparkline -->
-<script src="{{ asset('public/admin/AdminLTE/plugins/sparklines/sparkline.js') }}"></script>
-<!-- JQVMap -->
-<script src="{{ asset('public/admin/AdminLTE/plugins/jqvmap/jquery.vmap.min.js') }}"></script>
-<script src="{{ asset('public/admin/AdminLTE/plugins/jqvmap/maps/jquery.vmap.usa.js') }}"></script>
+<script src="{{ asset('public/admin/AdminLTE/bower_components/jquery-sparkline/dist/jquery.sparkline.min.js')}}"></script>
+<!-- jvectormap -->
+<script src="{{ asset('public/admin/AdminLTE/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js')}}"></script>
+<script src="{{ asset('public/admin/AdminLTE/plugins/jvectormap/jquery-jvectormap-world-mill-en.js')}}"></script>
 <!-- jQuery Knob Chart -->
-<script src="{{ asset('public/admin/AdminLTE/plugins/jquery-knob/jquery.knob.min.js') }}"></script>
+<script src="{{ asset('public/admin/AdminLTE/bower_components/jquery-knob/dist/jquery.knob.min.js')}}"></script>
 <!-- daterangepicker -->
-<script src="{{ asset('public/admin/AdminLTE/plugins/moment/moment.min.js') }}"></script>
-<script src="{{ asset('public/admin/AdminLTE/plugins/daterangepicker/daterangepicker.js') }}"></script>
-<!-- Tempusdominus Bootstrap 4 -->
-<script src="{{ asset('public/admin/AdminLTE/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js') }}"></script>
-<!-- Summernote -->
-<script src="{{ asset('public/admin/AdminLTE/plugins/summernote/summernote-bs4.min.js') }}"></script>
-<!-- overlayScrollbars -->
-<script src="{{ asset('public/admin/AdminLTE/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js') }}"></script>
+<script src="{{ asset('public/admin/AdminLTE/bower_components/moment/min/moment.min.js')}}"></script>
+<script src="{{ asset('public/admin/AdminLTE/bower_components/bootstrap-daterangepicker/daterangepicker.js')}}"></script>
+<!-- datepicker -->
+<script src="{{ asset('public/admin/AdminLTE/bower_components/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js')}}"></script>
+<!-- Bootstrap WYSIHTML5 -->
+<script src="{{ asset('public/admin/AdminLTE/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js')}}"></script>
+<!-- Slimscroll -->
+<script src="{{ asset('public/admin/AdminLTE/bower_components/jquery-slimscroll/jquery.slimscroll.min.js')}}"></script>
+<!-- FastClick -->
+<script src="{{ asset('public/admin/AdminLTE/bower_components/fastclick/lib/fastclick.js')}}"></script>
 <!-- AdminLTE App -->
-<script src="{{ asset('public/admin/AdminLTE/dist/js/adminlte.js') }}"></script>
+<script src="{{ asset('public/admin/AdminLTE/dist/js/adminlte.min.js')}}"></script>
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-<script src="{{ asset('public/admin/AdminLTE/dist/js/pages/dashboard.js') }}"></script>
+<script src="{{ asset('public/admin/AdminLTE/dist/js/pages/dashboard.js')}}"></script>
 <!-- AdminLTE for demo purposes -->
-<script src="{{ asset('public/admin/AdminLTE/dist/js/demo.js') }}"></script>
+<script src="{{ asset('public/admin/AdminLTE/dist/js/demo.js')}}"></script>
 </body>
 </html>
