@@ -18,4 +18,11 @@ Route::get('/', function () {
 Route::get('chuyen-muc-san-pham', function () {
     return view('chuyenmucsanpham');
 });
+Route::get('admin', function () {
+    return view('admin.home');
+});
 
+/*
+ Product
+*/
+require_once 'component/product.php';
