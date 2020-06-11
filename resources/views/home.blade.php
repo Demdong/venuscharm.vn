@@ -24,7 +24,7 @@
     <!-- for Facebook -->
     <meta property="og:title" content="Venus Charm">
     <meta property="og:type" content="article">
-    <meta property="og:image" content="{{asset('images/venus-charm-banner-dau-trang-1-.jpg')}}">
+    <meta property="og:image" content="{{asset('images-demo/venus-charm-banner-dau-trang-1-.jpg')}}">
     <meta property="og:description" content="Venus Charm">
     <meta property="og:site_name" content="Venus Charm">
     <meta property="fb:admins" content="">
@@ -34,7 +34,7 @@
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Venus Charm">
     <meta name="twitter:description" content="Venus Charm">
-    <meta name="twitter:image" content="{{asset('images/venus-charm-banner-dau-trang-1-.jpg')}}">
+    <meta name="twitter:image" content="{{asset('images-demo/venus-charm-banner-dau-trang-1-.jpg')}}">
     <link rel="shortcut icon" href="{{asset('images/logo.png')}}">
 
     <!-- Fonts -->
@@ -228,7 +228,7 @@
                                                         <td class="img">
                                                             <a href="ao-freedom-1805-p846.html">
                                                                 <!-- ảnh được cắt 470x570 -->
-                                                                <img src="{{asset('images/1590838844.jpg')}}" alt="Áo Freedom 1805">
+                                                                <img src="{{asset('images-demo/1590838844.jpg')}}" alt="Áo Freedom 1805">
                                                             </a>
                                                         </td>
                                                         <td>
@@ -286,9 +286,9 @@
                     <div class="col-md-12 col-edit-0">
                         <div class="wp-banner">
                             <div class="img-banner">
-                                <img class="sample2 el_image hidden-xs" src="{{asset('images/pc-venus-charm-grand-opening-112c1-pham-ngoc-thach.png.png')}}" alt="banner1">
+                                <img class="sample2 el_image hidden-xs" src="{{asset('images-demo/pc-venus-charm-grand-opening-112c1-pham-ngoc-thach.png.png')}}" alt="banner1">
                                <!--  banner mobile -->
-                                <img class="sample2 el_image hidden-md hidden-lg hidden-sm" src="{{asset('images/venus-charm-grand-opening-112c1-pham-ngoc-thach.png')}}" alt="banner1">
+                                <img class="sample2 el_image hidden-md hidden-lg hidden-sm" src="{{asset('images-demo/venus-charm-grand-opening-112c1-pham-ngoc-thach.png')}}" alt="banner1">
                             </div>
                             <div class="text-banner">
                                 <div style="z-index: 9; font-size: 50px;color: #c73550;" class="hidden">
@@ -314,7 +314,7 @@
                         <div class="row">
                             <div class="col-md-4 col-sm-4 col-xs-12">
                                 <div class="wp-img-size" id="wp-img-sizeqq">
-                                    <img src="{{asset('images/dosize-1-.png')}}" alt="ảnh hướng dẫn ">
+                                    <img src="{{asset('images-demo/dosize-1-.png')}}" alt="ảnh hướng dẫn ">
                                 </div>
                             </div>
                             <div class="col-md-8 col-sm-8 col-xs-12">
@@ -377,7 +377,7 @@
                         <div class="wp-tin wp-tin2 flex-oder">
                             <div class="img-tin">
                                 <a href="#" class="d-block w-100">
-                                    <img class="el_image" src="{{asset('images/venus-charm-banner-cheo-2.jpg')}}" alt="Chiếc áo lót đang mặc <br>có làm nàng thoải mái?">
+                                    <img class="el_image" src="{{asset('images-demo/venus-charm-banner-cheo-2.jpg')}}" alt="Chiếc áo lót đang mặc <br>có làm nàng thoải mái?">
                                 </a>
                             </div>
                             <div class="text-tin">
@@ -390,7 +390,7 @@
                         <div class="wp-tin wp-tin1">
                             <div class="img-tin">
                                 <a href="" class="d-block w-100">
-                                    <img class="el_image" src="{{asset('images/venus-charm-ao-quay.jpg')}}" alt="Êm - Mềm - Nhẹ <br>Venus Charm">
+                                    <img class="el_image" src="{{asset('images-demo/venus-charm-ao-quay.jpg')}}" alt="Êm - Mềm - Nhẹ <br>Venus Charm">
                                 </a>
                             </div>
                             <div class="text-tin">
@@ -406,7 +406,7 @@
         <section class="sec-home-03">
             <div class="wp-shopnow hidden-xs">
                 <div class="img-bg">
-                    <img class="el_image" src="{{asset('images/venuscharm-banner-3.jpg')}}" alt="banner">
+                    <img class="el_image" src="{{asset('images-demo/venuscharm-banner-3.jpg')}}" alt="banner">
                 </div>
                 <div class="text-home-03">
                     <h2 class="h2-title"><br><br>KHÔNG GỌNG <br></h2>
@@ -458,7 +458,7 @@
                             <div class="wp-item-uudai">
                                 <div class="img-uudai">
                                     <a href="/">
-                                        <img class="el_image" src="{{asset('images/venuscharm-dolot-freeship-1-.png')}}" alt="FREESHIP ĐƠN HÀNG TỪ 3 SP TRỞ LÊN">
+                                        <img class="el_image" src="{{asset('images-demo/venuscharm-dolot-freeship-1-.png')}}" alt="FREESHIP ĐƠN HÀNG TỪ 3 SP TRỞ LÊN">
                                     </a>
                                 </div>
                                 <div class="text-uudai text-center hidden-xs">
@@ -475,7 +475,7 @@
                             <div class="wp-item-uudai">
                                 <div class="img-uudai">
                                     <a href="/">
-                                        <img class="el_image" src="{{asset('images/banner-freeship-venus-charm-1-.jpg')}}" alt="FREESHIP ĐƠN HÀNG TỪ 3 SP TRỞ LÊN">
+                                        <img class="el_image" src="{{asset('images-demo/banner-freeship-venus-charm-1-.jpg')}}" alt="FREESHIP ĐƠN HÀNG TỪ 3 SP TRỞ LÊN">
                                     </a>
                                 </div>
                                 <div class="text-uudai text-center hidden-xs">
@@ -492,7 +492,7 @@
                             <div class="wp-item-uudai">
                                 <div class="img-uudai">
                                     <a href="/">
-                                        <img class="el_image" src="{{asset('images/venuscharm-dolot-freeship-1-.png')}}" alt="FREESHIP ĐƠN HÀNG TỪ 3 SP TRỞ LÊN">
+                                        <img class="el_image" src="{{asset('images-demo/venuscharm-dolot-freeship-1-.png')}}" alt="FREESHIP ĐƠN HÀNG TỪ 3 SP TRỞ LÊN">
                                     </a>
                                 </div>
                                 <div class="text-uudai text-center hidden-xs">
@@ -509,7 +509,7 @@
                             <div class="wp-item-uudai">
                                 <div class="img-uudai">
                                     <a href="/">
-                                        <img class="el_image" src="{{asset('images/banner-freeship-venus-charm-1-.jpg')}}" alt="FREESHIP ĐƠN HÀNG TỪ 3 SP TRỞ LÊN">
+                                        <img class="el_image" src="{{asset('images-demo/banner-freeship-venus-charm-1-.jpg')}}" alt="FREESHIP ĐƠN HÀNG TỪ 3 SP TRỞ LÊN">
                                     </a>
                                 </div>
                                 <div class="text-uudai text-center hidden-xs">
@@ -526,7 +526,7 @@
                             <div class="wp-item-uudai">
                                 <div class="img-uudai">
                                     <a href="/">
-                                        <img class="el_image" src="{{asset('images/venuscharm-dolot-freeship-1-.png')}}" alt="FREESHIP ĐƠN HÀNG TỪ 3 SP TRỞ LÊN">
+                                        <img class="el_image" src="{{asset('images-demo/venuscharm-dolot-freeship-1-.png')}}" alt="FREESHIP ĐƠN HÀNG TỪ 3 SP TRỞ LÊN">
                                     </a>
                                 </div>
                                 <div class="text-uudai text-center hidden-xs">
@@ -543,7 +543,7 @@
                             <div class="wp-item-uudai">
                                 <div class="img-uudai">
                                     <a href="/">
-                                        <img class="el_image" src="{{asset('images/banner-freeship-venus-charm-1-.jpg')}}" alt="FREESHIP ĐƠN HÀNG TỪ 3 SP TRỞ LÊN">
+                                        <img class="el_image" src="{{asset('images-demo/banner-freeship-venus-charm-1-.jpg')}}" alt="FREESHIP ĐƠN HÀNG TỪ 3 SP TRỞ LÊN">
                                     </a>
                                 </div>
                                 <div class="text-uudai text-center hidden-xs">
@@ -560,7 +560,7 @@
                             <div class="wp-item-uudai">
                                 <div class="img-uudai">
                                     <a href="/">
-                                        <img class="el_image" src="{{asset('images/venuscharm-dolot-freeship-1-.png')}}" alt="FREESHIP ĐƠN HÀNG TỪ 3 SP TRỞ LÊN">
+                                        <img class="el_image" src="{{asset('images-demo/venuscharm-dolot-freeship-1-.png')}}" alt="FREESHIP ĐƠN HÀNG TỪ 3 SP TRỞ LÊN">
                                     </a>
                                 </div>
                                 <div class="text-uudai text-center hidden-xs">
@@ -577,7 +577,7 @@
                             <div class="wp-item-uudai">
                                 <div class="img-uudai">
                                     <a href="/">
-                                        <img class="el_image" src="{{asset('images/banner-freeship-venus-charm-1-.jpg')}}" alt="FREESHIP ĐƠN HÀNG TỪ 3 SP TRỞ LÊN">
+                                        <img class="el_image" src="{{asset('images-demo/banner-freeship-venus-charm-1-.jpg')}}" alt="FREESHIP ĐƠN HÀNG TỪ 3 SP TRỞ LÊN">
                                     </a>
                                 </div>
                                 <div class="text-uudai text-center hidden-xs">
@@ -594,7 +594,7 @@
                             <div class="wp-item-uudai">
                                 <div class="img-uudai">
                                     <a href="/">
-                                        <img class="el_image" src="{{asset('images/venuscharm-dolot-freeship-1-.png')}}" alt="FREESHIP ĐƠN HÀNG TỪ 3 SP TRỞ LÊN">
+                                        <img class="el_image" src="{{asset('images-demo/venuscharm-dolot-freeship-1-.png')}}" alt="FREESHIP ĐƠN HÀNG TỪ 3 SP TRỞ LÊN">
                                     </a>
                                 </div>
                                 <div class="text-uudai text-center hidden-xs">
@@ -648,14 +648,14 @@
                                                 <div class="item">
                                                     <div class="wp-img-slide-sp">
                                                         <a href="ao-6883-cao-cap-p847.html">
-                                                            <img class="el_image" src="{{asset('images/1590839584.jpg')}}">
+                                                            <img class="el_image" src="{{asset('images-demo/1590839584.jpg')}}">
                                                         </a>
                                                     </div>
                                                 </div>
                                                 <div class="item">
                                                     <div class="wp-img-slide-sp">
                                                         <a href="ao-6883-cao-cap-p847.html">
-                                                            <img class="el_image" src="{{asset('images/1590839580.jpg')}}">
+                                                            <img class="el_image" src="{{asset('images-demo/1590839580.jpg')}}">
                                                         </a>
                                                     </div>
                                                 </div>
@@ -666,14 +666,14 @@
                                                 <div class="item">
                                                     <div class="wp-img-slide-sp">
                                                         <a href="ao-6883-cao-cap-p847.html">
-                                                            <img class="el_image" src="{{asset('images/1590839561.jpg')}}">
+                                                            <img class="el_image" src="{{asset('images-demo/1590839561.jpg')}}">
                                                         </a>
                                                     </div>
                                                 </div>
                                                  <div class="item">
                                                     <div class="wp-img-slide-sp">
                                                         <a href="ao-6883-cao-cap-p847.html">
-                                                            <img class="el_image" src="{{asset('images/1590839561.jpg')}}">
+                                                            <img class="el_image" src="{{asset('images-demo/1590839561.jpg')}}">
                                                         </a>
                                                     </div>
                                                 </div>
@@ -700,10 +700,10 @@
                                 <div class="wp-list-check-color">
                                     <ul class="ul-b list-color-sp">
                                         <li class="item-color color-1 active">
-                                            <span style="background: url('{{asset('images/1590839575.jpg')}}')"></span>
+                                            <span style="background: url('{{asset('images-demo/1590839575.jpg')}}')"></span>
                                         </li>
                                         <li class="item-color color-1">
-                                            <span style="background: url('{{asset('images/1590839542.jpg')}}')"></span>
+                                            <span style="background: url('{{asset('images-demo/1590839542.jpg')}}')"></span>
                                         </li>
                                     </ul>
                                 </div>
@@ -720,14 +720,14 @@
                                                 <div class="item">
                                                     <div class="wp-img-slide-sp">
                                                         <a href="ao-6883-cao-cap-p847.html">
-                                                            <img class="el_image" src="{{asset('images/1590839584.jpg')}}">
+                                                            <img class="el_image" src="{{asset('images-demo/1590839584.jpg')}}">
                                                         </a>
                                                     </div>
                                                 </div>
                                                 <div class="item">
                                                     <div class="wp-img-slide-sp">
                                                         <a href="ao-6883-cao-cap-p847.html">
-                                                            <img class="el_image" src="{{asset('images/1590839580.jpg')}}">
+                                                            <img class="el_image" src="{{asset('images-demo/1590839580.jpg')}}">
                                                         </a>
                                                     </div>
                                                 </div>
@@ -738,14 +738,14 @@
                                                 <div class="item">
                                                     <div class="wp-img-slide-sp">
                                                         <a href="ao-6883-cao-cap-p847.html">
-                                                            <img class="el_image" src="{{asset('images/1590839561.jpg')}}">
+                                                            <img class="el_image" src="{{asset('images-demo/1590839561.jpg')}}">
                                                         </a>
                                                     </div>
                                                 </div>
                                                  <div class="item">
                                                     <div class="wp-img-slide-sp">
                                                         <a href="ao-6883-cao-cap-p847.html">
-                                                            <img class="el_image" src="{{asset('images/1590839561.jpg')}}">
+                                                            <img class="el_image" src="{{asset('images-demo/1590839561.jpg')}}">
                                                         </a>
                                                     </div>
                                                 </div>
@@ -772,10 +772,10 @@
                                 <div class="wp-list-check-color">
                                     <ul class="ul-b list-color-sp">
                                         <li class="item-color color-1 active">
-                                            <span style="background: url('{{asset('images/1590839575.jpg')}}')"></span>
+                                            <span style="background: url('{{asset('images-demo/1590839575.jpg')}}')"></span>
                                         </li>
                                         <li class="item-color color-1">
-                                            <span style="background: url('{{asset('images/1590839542.jpg')}}')"></span>
+                                            <span style="background: url('{{asset('images-demo/1590839542.jpg')}}')"></span>
                                         </li>
                                     </ul>
                                 </div>
@@ -794,7 +794,7 @@
                         <div class="col-md-6 col-sm-6 col-xs-12">
                             <div class="wp-sp-nb sp-nb1">
                                <!--  ảnh cắt 820x920 -->
-                                <a href="ao-lot.html"><img class="el_image" src="{{asset('images/venus-charm-banner-ao-lot-noi-bat-1-.jpg')}}" alt="ÁO LÓT"></a>
+                                <a href="ao-lot.html"><img class="el_image" src="{{asset('images-demo/venus-charm-banner-ao-lot-noi-bat-1-.jpg')}}" alt="ÁO LÓT"></a>
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-6 col-xs-12">
@@ -803,25 +803,25 @@
                                     <div class="col-md-6 col-sm-6 col-xs-6">
                                         <div class="wp-item-spnb2">
                                            <!--  anh cắt 468x586 -->
-                                            <a href=""><img class="el_image" src="{{asset('images/1589008493.jpg')}}" alt="Áo Bầu 2195"></a>
+                                            <a href=""><img class="el_image" src="{{asset('images-demo/1589008493.jpg')}}" alt="Áo Bầu 2195"></a>
                                         </div>
                                     </div>
                                     <div class="col-md-6 col-sm-6 col-xs-6">
                                         <div class="wp-item-spnb2">
                                             <!--  anh cắt 468x586 -->
-                                            <a href=""><img class="el_image" src="{{asset('images/1588986851.jpg')}}" alt="Áo 8038"></a>
+                                            <a href=""><img class="el_image" src="{{asset('images-demo/1588986851.jpg')}}" alt="Áo 8038"></a>
                                         </div>
                                     </div>
                                     <div class="col-md-6 col-sm-6 col-xs-6">
                                         <div class="wp-item-spnb2">
                                             <!--  anh cắt 468x586 -->
-                                            <a href=""><img class="el_image" src="{{asset('images/1582979383.jpg')}}" alt="Áo JM Siêu Đẩy"></a>
+                                            <a href=""><img class="el_image" src="{{asset('images-demo/1582979383.jpg')}}" alt="Áo JM Siêu Đẩy"></a>
                                         </div>
                                     </div>
                                     <div class="col-md-6 col-sm-6 col-xs-6">
                                         <div class="wp-item-spnb2">
                                             <!--  anh cắt 468x586 -->
-                                            <a href=""><img class="el_image" src="{{asset('images/1578627910.jpg')}}" alt="ÁO LÓT 8055"></a>
+                                            <a href=""><img class="el_image" src="{{asset('images-demo/1578627910.jpg')}}" alt="ÁO LÓT 8055"></a>
                                         </div>
                                     </div>
                                 </div>
@@ -838,7 +838,7 @@
                         <div class="col-md-4 col-sm-4 col-xs-6">
                             <div class="wp-item-dv">
                                 <div class="icon-dv">
-                                    <img class="el_image" src="{{asset('images/venus-charm-feeship-don-hang-700k-full.png')}}" alt="FREESHIP ĐƠN HÀNG TỪ 03 SẢN PHẨM TRỞ LÊN">
+                                    <img class="el_image" src="{{asset('images-demo/venus-charm-feeship-don-hang-700k-full.png')}}" alt="FREESHIP ĐƠN HÀNG TỪ 03 SẢN PHẨM TRỞ LÊN">
                                 </div>
                                 <div class="text-dv">
                                     <h2 class="h2-title">FREESHIP ĐƠN HÀNG TỪ 03 SẢN PHẨM TRỞ LÊN</h2>
@@ -848,7 +848,7 @@
                         <div class="col-md-4 col-sm-4 col-xs-6">
                             <div class="wp-item-dv">
                                 <div class="icon-dv">
-                                    <img class="el_image" src="{{asset('images/bao-hanh-venus-charm-30-ngay-full.png')}}" alt="BẢO HÀNH SẢN PHẨM TRONG 30 NGÀY">
+                                    <img class="el_image" src="{{asset('images-demo/bao-hanh-venus-charm-30-ngay-full.png')}}" alt="BẢO HÀNH SẢN PHẨM TRONG 30 NGÀY">
                                 </div>
                                 <div class="text-dv">
                                     <h2 class="h2-title">BẢO HÀNH SẢN PHẨM TRONG 30 NGÀY</h2>
@@ -858,7 +858,7 @@
                         <div class="col-md-4 col-sm-4 col-xs-6">
                             <div class="wp-item-dv">
                                 <div class="icon-dv">
-                                    <img class="el_image" src="{{asset('images/dam-bao-san-pham-nhu-hinh-full.png')}}" alt="ĐẢM BẢO SẢN PHẨM NHƯ HÌNH">
+                                    <img class="el_image" src="{{asset('images-demo/dam-bao-san-pham-nhu-hinh-full.png')}}" alt="ĐẢM BẢO SẢN PHẨM NHƯ HÌNH">
                                 </div>
                                 <div class="text-dv">
                                     <h2 class="h2-title">ĐẢM BẢO SẢN PHẨM NHƯ HÌNH</h2>
@@ -906,14 +906,14 @@
                                                 <div class="item">
                                                     <div class="wp-img-slide-sp">
                                                         <a href="ao-6883-cao-cap-p847.html">
-                                                            <img class="el_image" src="{{asset('images/1589760847.jpg')}}">
+                                                            <img class="el_image" src="{{asset('images-demo/1589760847.jpg')}}">
                                                         </a>
                                                     </div>
                                                 </div>
                                                 <div class="item">
                                                     <div class="wp-img-slide-sp">
                                                         <a href="ao-6883-cao-cap-p847.html">
-                                                            <img class="el_image" src="{{asset('images/1589760841.jpg')}}">
+                                                            <img class="el_image" src="{{asset('images-demo/1589760841.jpg')}}">
                                                         </a>
                                                     </div>
                                                 </div>
@@ -924,14 +924,14 @@
                                                 <div class="item">
                                                     <div class="wp-img-slide-sp">
                                                         <a href="ao-6883-cao-cap-p847.html">
-                                                            <img class="el_image" src="{{asset('images/1589760889.jpg')}}">
+                                                            <img class="el_image" src="{{asset('images-demo/1589760889.jpg')}}">
                                                         </a>
                                                     </div>
                                                 </div>
                                                  <div class="item">
                                                     <div class="wp-img-slide-sp">
                                                         <a href="ao-6883-cao-cap-p847.html">
-                                                            <img class="el_image" src="{{asset('images/1589760896.jpg')}}">
+                                                            <img class="el_image" src="{{asset('images-demo/1589760896.jpg')}}">
                                                         </a>
                                                     </div>
                                                 </div>
@@ -958,10 +958,10 @@
                                 <div class="wp-list-check-color">
                                     <ul class="ul-b list-color-sp">
                                         <li class="item-color color-1 active">
-                                            <span style="background: url('{{asset('images/1589760834.jpg')}}')"></span>
+                                            <span style="background: url('{{asset('images-demo/1589760834.jpg')}}')"></span>
                                         </li>
                                         <li class="item-color color-1">
-                                            <span style="background: url('{{asset('images/1589760841.jpg')}}')"></span>
+                                            <span style="background: url('{{asset('images-demo/1589760841.jpg')}}')"></span>
                                         </li>
                                     </ul>
                                 </div>
@@ -978,14 +978,14 @@
                                                 <div class="item">
                                                     <div class="wp-img-slide-sp">
                                                         <a href="ao-6883-cao-cap-p847.html">
-                                                            <img class="el_image" src="{{asset('images/1589760847.jpg')}}">
+                                                            <img class="el_image" src="{{asset('images-demo/1589760847.jpg')}}">
                                                         </a>
                                                     </div>
                                                 </div>
                                                 <div class="item">
                                                     <div class="wp-img-slide-sp">
                                                         <a href="ao-6883-cao-cap-p847.html">
-                                                            <img class="el_image" src="{{asset('images/1589760841.jpg')}}">
+                                                            <img class="el_image" src="{{asset('images-demo/1589760841.jpg')}}">
                                                         </a>
                                                     </div>
                                                 </div>
@@ -996,14 +996,14 @@
                                                 <div class="item">
                                                     <div class="wp-img-slide-sp">
                                                         <a href="ao-6883-cao-cap-p847.html">
-                                                            <img class="el_image" src="{{asset('images/1589760889.jpg')}}">
+                                                            <img class="el_image" src="{{asset('images-demo/1589760889.jpg')}}">
                                                         </a>
                                                     </div>
                                                 </div>
                                                  <div class="item">
                                                     <div class="wp-img-slide-sp">
                                                         <a href="ao-6883-cao-cap-p847.html">
-                                                            <img class="el_image" src="{{asset('images/1589760896.jpg')}}">
+                                                            <img class="el_image" src="{{asset('images-demo/1589760896.jpg')}}">
                                                         </a>
                                                     </div>
                                                 </div>
@@ -1030,10 +1030,10 @@
                                 <div class="wp-list-check-color">
                                     <ul class="ul-b list-color-sp">
                                         <li class="item-color color-1 active">
-                                            <span style="background: url('{{asset('images/1589760834.jpg')}}')"></span>
+                                            <span style="background: url('{{asset('images-demo/1589760834.jpg')}}')"></span>
                                         </li>
                                         <li class="item-color color-1">
-                                            <span style="background: url('{{asset('images/1589760841.jpg')}}')"></span>
+                                            <span style="background: url('{{asset('images-demo/1589760841.jpg')}}')"></span>
                                         </li>
                                     </ul>
                                 </div>
@@ -1055,25 +1055,25 @@
                                     <div class="col-md-6 col-sm-6 col-xs-6">
                                         <div class="wp-item-spnb2">
                                            <!--  anh cắt 468x586 -->
-                                            <a href=""><img class="el_image" src="{{asset('images/1581339280.jpg')}}" alt="Áo Bầu 2195"></a>
+                                            <a href=""><img class="el_image" src="{{asset('images-demo/1581339280.jpg')}}" alt="Áo Bầu 2195"></a>
                                         </div>
                                     </div>
                                     <div class="col-md-6 col-sm-6 col-xs-6">
                                         <div class="wp-item-spnb2">
                                             <!--  anh cắt 468x586 -->
-                                            <a href=""><img class="el_image" src="{{asset('images/1569862821.jpg')}}" alt="Áo 8038"></a>
+                                            <a href=""><img class="el_image" src="{{asset('images-demo/1569862821.jpg')}}" alt="Áo 8038"></a>
                                         </div>
                                     </div>
                                     <div class="col-md-6 col-sm-6 col-xs-6">
                                         <div class="wp-item-spnb2">
                                             <!--  anh cắt 468x586 -->
-                                            <a href=""><img class="el_image" src="{{asset('images/1584530705.jpg')}}" alt="Áo JM Siêu Đẩy"></a>
+                                            <a href=""><img class="el_image" src="{{asset('images-demo/1584530705.jpg')}}" alt="Áo JM Siêu Đẩy"></a>
                                         </div>
                                     </div>
                                     <div class="col-md-6 col-sm-6 col-xs-6">
                                         <div class="wp-item-spnb2">
                                             <!--  anh cắt 468x586 -->
-                                            <a href=""><img class="el_image" src="{{asset('images/1589013028.jpg')}}" alt="ÁO LÓT 8055"></a>
+                                            <a href=""><img class="el_image" src="{{asset('images-demo/1589013028.jpg')}}" alt="ÁO LÓT 8055"></a>
                                         </div>
                                     </div>
                                 </div>
@@ -1082,7 +1082,7 @@
                          <div class="col-md-6 col-sm-6 col-xs-12">
                             <div class="wp-sp-nb sp-nb1">
                                <!--  ảnh cắt 820x920 -->
-                                <a href="ao-lot.html"><img class="el_image" src="{{asset('images/venus-charm-banner-ao-lot-noi-bat2-2-1-.jpg')}}" alt="ÁO LÓT"></a>
+                                <a href="ao-lot.html"><img class="el_image" src="{{asset('images-demo/venus-charm-banner-ao-lot-noi-bat2-2-1-.jpg')}}" alt="ÁO LÓT"></a>
                             </div>
                         </div>
                     </div>
@@ -1104,51 +1104,51 @@
                             <div class="row">
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                     <a data-toggle="modal" data-target="#myModalIn0">
-                                        <img class="el_image" src="{{asset('images/venus-charm-do-lot-mac-thoai-mai-tu-do(1).jpg')}}" alt="banner0">
+                                        <img class="el_image" src="{{asset('images-demo/venus-charm-do-lot-mac-thoai-mai-tu-do(1).jpg')}}" alt="banner0">
                                     </a>
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                     <a data-toggle="modal" data-target="#myModalIn0">
-                                        <img class="el_image" src="{{asset('images/venus-charm-ao-lot-khong-gong-ha-noi(1).jpg')}}" alt="banner1">
+                                        <img class="el_image" src="{{asset('images-demo/venus-charm-ao-lot-khong-gong-ha-noi(1).jpg')}}" alt="banner1">
                                     </a>
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                     <a data-toggle="modal" data-target="#myModalIn0">
-                                        <img class="el_image" src="{{asset('images/venus-charm-danh-gia-san-pham(1).jpg')}}" alt="banner2">
+                                        <img class="el_image" src="{{asset('images-demo/venus-charm-danh-gia-san-pham(1).jpg')}}" alt="banner2">
                                     </a>
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                     <a data-toggle="modal" data-target="#myModalIn0">
-                                        <img class="el_image" src="{{asset('images/venus-charm-do-lot-ren-mac-ao-co-sau(1).jpg')}}" alt="banner3">
+                                        <img class="el_image" src="{{asset('images-demo/venus-charm-do-lot-ren-mac-ao-co-sau(1).jpg')}}" alt="banner3">
                                     </a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-4 inst-2">
                             <a data-toggle="modal" data-target="#myModalIn0">
-                                <img class="el_image" src="{{asset('images/venus-charm-ao-lot-khong-gong-xuat-nhat(1).jpg')}}" alt="banner4">
+                                <img class="el_image" src="{{asset('images-demo/venus-charm-ao-lot-khong-gong-xuat-nhat(1).jpg')}}" alt="banner4">
                             </a>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-4 hidden-xs inst-3">
                             <div class="row">
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                     <a data-toggle="modal" data-target="#myModalIn0">
-                                        <img class="el_image" src="{{asset('images/venus-charm-ao-lot-khong-gong-dem-vua(1).jpg')}}" alt="banner5">
+                                        <img class="el_image" src="{{asset('images-demo/venus-charm-ao-lot-khong-gong-dem-vua(1).jpg')}}" alt="banner5">
                                     </a>
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                     <a data-toggle="modal" data-target="#myModalIn0">
-                                        <img class="el_image" src="{{asset('images/venus-charm-tu-do-la-tu-lo(1).jpg')}}" alt="banner6">
+                                        <img class="el_image" src="{{asset('images-demo/venus-charm-tu-do-la-tu-lo(1).jpg')}}" alt="banner6">
                                     </a>
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                     <a data-toggle="modal" data-target="#myModalIn0">
-                                        <img class="el_image" src="{{asset('images/hop-qua-tang-venus-charm(1).jpg')}}" alt="banner7">
+                                        <img class="el_image" src="{{asset('images-demo/hop-qua-tang-venus-charm(1).jpg')}}" alt="banner7">
                                     </a>
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                     <a data-toggle="modal" data-target="#myModalIn0">
-                                        <img class="el_image" src="{{asset('images/venus-charm-ao-lot-khong-gong-dem-day(2).jpg')}}" alt="banner8">
+                                        <img class="el_image" src="{{asset('images-demo/venus-charm-ao-lot-khong-gong-dem-day(2).jpg')}}" alt="banner8">
                                     </a>
                                 </div>
                             </div>
@@ -1168,7 +1168,7 @@
                     <div class="modal-body" style="padding: 0px">
                         <div class="row">
                             <div class="col-md-7 col-xs-12 col-sm-6">
-                                <img class="showcase-media" src="{{asset('images/venus-charm-danh-gia-san-pham(1).jpg')}}">
+                                <img class="showcase-media" src="{{asset('images-demo/venus-charm-danh-gia-san-pham(1).jpg')}}">
                             </div>
                             <div class="col-md-5 col-xs-12 col-sm-6">
                                 <div style="padding: 50px 10px 10px 0px">
@@ -1187,7 +1187,7 @@
                 </div>
             </div>
         </div>
-    </main>
+    </main><!--  end -->
 
     <!-- chân trang -->
     <footer id="footer-site">
@@ -1317,6 +1317,9 @@
         </div>
         </div>
     </footer>
+    <div class="feedback">
+        <a href="#" target="_blank"><div class="inner rotate">Feedback</div></a>
+    </div>
 </body>
 
 
@@ -1327,7 +1330,8 @@
 <script src="{{asset('js/rangeslider.js')}}"></script>
 <script src="{{asset('js/fontawesome.min.js')}}"></script>
 <script src="{{asset('js/jquery.fancybox.min.js')}}"></script>
-
+<script src="{{asset('js/sticky-kit.min.js')}}"></script>
+<script src="{{asset('js/slick.min.js')}}"></script>
 <script src="{{asset('js/customer.js')}}"></script>
 
 <script>

@@ -24,7 +24,7 @@
     <!-- for Facebook -->
     <meta property="og:title" content="Venus Charm">
     <meta property="og:type" content="article">
-    <meta property="og:image" content="{{asset('images/venus-charm-banner-dau-trang-1-.jpg')}}">
+    <meta property="og:image" content="{{asset('images-demo/venus-charm-banner-dau-trang-1-.jpg')}}">
     <meta property="og:description" content="Venus Charm">
     <meta property="og:site_name" content="Venus Charm">
     <meta property="fb:admins" content="">
@@ -34,7 +34,7 @@
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Venus Charm">
     <meta name="twitter:description" content="Venus Charm">
-    <meta name="twitter:image" content="{{asset('images/venus-charm-banner-dau-trang-1-.jpg')}}">
+    <meta name="twitter:image" content="{{asset('images-demo/venus-charm-banner-dau-trang-1-.jpg')}}">
     <link rel="shortcut icon" href="{{asset('images/logo.png')}}">
 
     <!-- Fonts -->
@@ -225,7 +225,7 @@
                                                         <td class="img">
                                                             <a href="ao-freedom-1805-p846.html">
                                                                 <!-- ảnh được cắt 470x570 -->
-                                                                <img src="{{asset('images/1590838844.jpg')}}" alt="Áo Freedom 1805">
+                                                                <img src="{{asset('images-demo/1590838844.jpg')}}" alt="Áo Freedom 1805">
                                                             </a>
                                                         </td>
                                                         <td>
@@ -408,14 +408,14 @@
                                                         <div class="item">
                                                             <div class="wp-img-slide-sp">
                                                                 <a href="">
-                                                                    <img class="el_image" src="{{asset('images/1589760847.jpg')}}">
+                                                                    <img class="el_image" src="{{asset('images-demo/1589760847.jpg')}}">
                                                                 </a>
                                                             </div>
                                                         </div>
                                                         <div class="item">
                                                             <div class="wp-img-slide-sp">
                                                                 <a href="">
-                                                                    <img class="el_image" src="{{asset('images/1589760841.jpg')}}">
+                                                                    <img class="el_image" src="{{asset('images-demo/1589760841.jpg')}}">
                                                                 </a>
                                                             </div>
                                                         </div>
@@ -426,14 +426,14 @@
                                                         <div class="item">
                                                             <div class="wp-img-slide-sp">
                                                                 <a href="">
-                                                                    <img class="el_image" src="{{asset('images/1589760889.jpg')}}">
+                                                                    <img class="el_image" src="{{asset('images-demo/1589760889.jpg')}}">
                                                                 </a>
                                                             </div>
                                                         </div>
                                                          <div class="item">
                                                             <div class="wp-img-slide-sp">
                                                                 <a href="">
-                                                                    <img class="el_image" src="{{asset('images/1589760896.jpg')}}">
+                                                                    <img class="el_image" src="{{asset('images-demo/1589760896.jpg')}}">
                                                                 </a>
                                                             </div>
                                                         </div>
@@ -460,17 +460,17 @@
                                         <div class="wp-list-check-color">
                                             <ul class="ul-b list-color-sp">
                                                 <li class="item-color color-1 active">
-                                                    <span style="background: url('{{asset('images/1589760834.jpg')}}')"></span>
+                                                    <span style="background: url('{{asset('images-demo/1589760834.jpg')}}')"></span>
                                                 </li>
                                                 <li class="item-color color-1">
-                                                    <span style="background: url('{{asset('images/1589760841.jpg')}}')"></span>
+                                                    <span style="background: url('{{asset('images-demo/1589760841.jpg')}}')"></span>
                                                 </li>
                                             </ul>
                                         </div>
                                         <!--end màu sắc đầu tiên-->
                                     </div>
                                 </div> <!-- end 1 sản phẩm -->
-                                 <div class="col-md-3 col-sm-3 col-xs-6">
+                                <div class="col-md-3 col-sm-3 col-xs-6">
                                     <div class="wp-item-sp">
                                         <!--màu sắc -->
                                         <div style="position: relative">
@@ -480,14 +480,14 @@
                                                         <div class="item">
                                                             <div class="wp-img-slide-sp">
                                                                 <a href="">
-                                                                    <img class="el_image" src="{{asset('images/1589760847.jpg')}}">
+                                                                    <img class="el_image" src="{{asset('images-demo/1589760847.jpg')}}">
                                                                 </a>
                                                             </div>
                                                         </div>
                                                         <div class="item">
                                                             <div class="wp-img-slide-sp">
                                                                 <a href="ao-6883-cao-cap-p847.html">
-                                                                    <img class="el_image" src="{{asset('images/1589760841.jpg')}}">
+                                                                    <img class="el_image" src="{{asset('images-demo/1589760841.jpg')}}">
                                                                 </a>
                                                             </div>
                                                         </div>
@@ -498,14 +498,14 @@
                                                         <div class="item">
                                                             <div class="wp-img-slide-sp">
                                                                 <a href="">
-                                                                    <img class="el_image" src="{{asset('images/1589760889.jpg')}}">
+                                                                    <img class="el_image" src="{{asset('images-demo/1589760889.jpg')}}">
                                                                 </a>
                                                             </div>
                                                         </div>
                                                          <div class="item">
                                                             <div class="wp-img-slide-sp">
                                                                 <a href="">
-                                                                    <img class="el_image" src="{{asset('images/1589760896.jpg')}}">
+                                                                    <img class="el_image" src="{{asset('images-demo/1589760896.jpg')}}">
                                                                 </a>
                                                             </div>
                                                         </div>
@@ -532,10 +532,10 @@
                                         <div class="wp-list-check-color">
                                             <ul class="ul-b list-color-sp">
                                                 <li class="item-color color-1 active">
-                                                    <span style="background: url('{{asset('images/1589760834.jpg')}}')"></span>
+                                                    <span style="background: url('{{asset('images-demo/1589760834.jpg')}}')"></span>
                                                 </li>
                                                 <li class="item-color color-1">
-                                                    <span style="background: url('{{asset('images/1589760841.jpg')}}')"></span>
+                                                    <span style="background: url('{{asset('images-demo/1589760841.jpg')}}')"></span>
                                                 </li>
                                             </ul>
                                         </div>
@@ -690,6 +690,9 @@
         </div>
         </div>
     </footer>
+     <div class="feedback">
+        <a href="#" target="_blank"><div class="inner rotate">Feedback</div></a>
+    </div>
 </body>
 
 
@@ -700,7 +703,8 @@
 <script src="{{asset('js/rangeslider.js')}}"></script>
 <script src="{{asset('js/fontawesome.min.js')}}"></script>
 <script src="{{asset('js/jquery.fancybox.min.js')}}"></script>
-
+<script src="{{asset('js/sticky-kit.min.js')}}"></script>
+<script src="{{asset('js/slick.min.js')}}"></script>
 <script src="{{asset('js/customer.js')}}"></script>
 
 <script>
