@@ -28,13 +28,16 @@
   <!-- bootstrap wysihtml5 - text editor -->
   <link rel="stylesheet" href="{{ asset('public/admin/AdminLTE/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css')}}">
 
+  <link rel="stylesheet" href="{{ asset('public/admin/css/admin.css')}}">
+
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
   <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->
-
+  <!-- iCheck -->
+  <link rel="stylesheet" href="{{ asset('public/admin/AdminLTE/plugins/iCheck/square/blue.css')}}">
   <!-- Google Font -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
 </head>
@@ -75,8 +78,6 @@
   $.widget.bridge('uibutton', $.ui.button);
 </script>
 <!-- Bootstrap 3.3.7 -->
-<script src="{{ asset('public/admin/AdminLTE/bower_components/bootstrap/dist/js/bootstrap.min.js')}}"></script>
-<!-- Morris.js charts -->
 <script src="{{ asset('public/admin/AdminLTE/bower_components/raphael/raphael.min.js')}}"></script>
 <script src="{{ asset('public/admin/AdminLTE/bower_components/morris.js/morris.min.js')}}"></script>
 <!-- Sparkline -->
@@ -99,9 +100,25 @@
 <script src="{{ asset('public/admin/AdminLTE/bower_components/fastclick/lib/fastclick.js')}}"></script>
 <!-- AdminLTE App -->
 <script src="{{ asset('public/admin/AdminLTE/dist/js/adminlte.min.js')}}"></script>
-<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-<script src="{{ asset('public/admin/AdminLTE/dist/js/pages/dashboard.js')}}"></script>
-<!-- AdminLTE for demo purposes -->
-<script src="{{ asset('public/admin/AdminLTE/dist/js/demo.js')}}"></script>
+{{-- sweetalert2 --}}
+<script src="{{ asset('admin/plugin/sweetalert2.all.min.js')}}"></script>
+{{-- <script src="{{ asset('admin/plugin/promise-polyfill.js')}}"></script> --}}
+
+<!-- Select2 -->
+<script src="{{ asset('public/admin/AdminLTE/bower_components/select2/dist/js/select2.full.min.js')}}"></script>
+{{-- switch --}}
+<script src="{{ asset('admin/plugin/bootstrap-switch.min.js')}}"></script>
+
+@stack('scripts')
+<script>
+  $(function () {
+    $('.input').iCheck({
+      checkboxClass: 'icheckbox_square-blue',
+      radioClass: 'iradio_square-blue',
+      increaseArea: '20%' /* optional */
+    });
+  });
+  
+</script>
 </body>
 </html>
