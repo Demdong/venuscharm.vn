@@ -60,25 +60,25 @@ jQuery(document).ready(function($) {
     //     });
     // });
 
-        $(".btn-click-dosize").click(function () {
+    $(".btn-click-dosize").click(function () {
         var value_chieucao = $('#value_chieucao').val();
         var value_cannang = $('#value_cannang').val();
         var value_vong1 = $('#value_vong1').val();
         test_size(value_chieucao, value_cannang, value_vong1);
         return false;
     });
-    function test_size(value_chieucao, value_cannang, value_vong1) {
-        $.post('https://venuscharm.vn/products/frontend/products/bangdosize.html', {
-            value_chieucao: value_chieucao,
-            value_cannang: value_cannang,
-            value_vong1: value_vong1
-        }, function (data) {
-            var json = JSON.parse(data);
-            $('#form-view-2').html(json.html);
-            $(".wp-list-form-dosize").find(".form-1").addClass("hidden");
-            $(".wp-list-form-dosize").find(".form-2").addClass("active");
-        });
-    }
+    // function test_size(value_chieucao, value_cannang, value_vong1) {
+    //     $.post('', {
+    //         value_chieucao: value_chieucao,
+    //         value_cannang: value_cannang,
+    //         value_vong1: value_vong1
+    //     }, function (data) {
+    //         var json = JSON.parse(data);
+    //         $('#form-view-2').html(json.html);
+    //         $(".wp-list-form-dosize").find(".form-1").addClass("hidden");
+    //         $(".wp-list-form-dosize").find(".form-2").addClass("active");
+    //     });
+    // }
     $('input[name="participants"]').rangeslider({
         polyfill: false, onInit: function () {
             $handle = $('.rangeslider-group1 .rangeslider__handle');
@@ -113,6 +113,10 @@ jQuery(document).ready(function($) {
         el.textContent = val;
     }
 
+
+
+
+
     $(".btn-chinhsua-lai").click( function() {
         $(".wp-list-form-dosize").find(".form-1").removeClass("hidden");
         $(".wp-list-form-dosize").find(".form-2").removeClass("active");
@@ -140,7 +144,15 @@ jQuery(document).ready(function($) {
         $(this).parent().find(".wp-bo-loc-1").removeClass("open");
 
     });
+    
 
+    $(".regular").slick({
+        dots: false,
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 2,
+        vertical: true,
+    });
 
     $('.slide-uudai').owlCarousel({
         loop:true,
@@ -210,6 +222,20 @@ jQuery(document).ready(function($) {
     $(".list-color-sp li:nth-child(10)").click( function() {
         $(this).parents(".wp-item-sp").find(".wp-item-sp-main:nth-child(10)").addClass('active');
     });
+
+    // function stick(id, el_class, offset_top, stick, unstick) {
+    //     if ($(id).length > 0) {
+    //         $(id).stick_in_parent({
+    //             sticky_class: el_class,
+    //             offset_top: offset_top
+    //         }).on("sticky_kit:stick", function (e) {
+    //             $(stick).hide();
+    //         }).on("sticky_kit:unstick", function (e) {
+    //             $(unstick).show();
+    //         });
+    //     }
+    // };    /*---------- Cố định menu dọc trang danh sách sản phẩm khi scroll ----------*/
+    // stick(".pca-pl-r", "fixed-menu", 1, "", "");
 
     $('.slide-sp-title').owlCarousel({
         loop:true,

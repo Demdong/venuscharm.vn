@@ -18,11 +18,25 @@ Route::get('/', function () {
 Route::get('chuyen-muc-san-pham', function () {
     return view('chuyenmucsanpham');
 });
-Route::get('admin', function () {
-    return view('admin.home');
+
+Route::get('chi-tiet-san-pham', function () {
+    return view('chitietsanpham');
 });
 
-/*
- Product
-*/
-require_once 'component/product.php';
+Route::get('blog', function () {
+    return view('blog');
+});
+
+Route::get('post', function () {
+    return view('post');
+});
+
+Route::get('feedback', function () {
+    return view('feedback');
+});
+
+Route::get('giohang', function () {
+    return view('giohang');
+});
+
+

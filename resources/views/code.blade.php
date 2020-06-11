@@ -50,7 +50,7 @@
     <link rel="stylesheet"  href="{{asset('css/style.css')}}"/>
 </head>
 <!-- yêu cầu người code chức năng để ý kỹ code html của các trang copy thiếu hay tự làm lỗi thì tự chỉnh -->
-<body>
+<body class="page-child">
     <header id="header-site">
         <div class="wp-header">
              <div id="sticky-wrapper" class="sticky-wrapper">
@@ -225,7 +225,7 @@
                                                         <td class="img">
                                                             <a href="ao-freedom-1805-p846.html">
                                                                 <!-- ảnh được cắt 470x570 -->
-                                                                <img src="{{asset('images/1590838844.jpg')}}" alt="Áo Freedom 1805">
+                                                                <img src="{{asset('images-demo/1590838844.jpg')}}" alt="Áo Freedom 1805">
                                                             </a>
                                                         </td>
                                                         <td>
@@ -408,6 +408,9 @@
         </div>
         </div>
     </footer>
+     <div class="feedback">
+        <a href="#" target="_blank"><div class="inner rotate">Feedback</div></a>
+    </div>
 </body>
 
 
@@ -418,7 +421,8 @@
 <script src="{{asset('js/rangeslider.js')}}"></script>
 <script src="{{asset('js/fontawesome.min.js')}}"></script>
 <script src="{{asset('js/jquery.fancybox.min.js')}}"></script>
-
+<script src="{{asset('js/sticky-kit.min.js')}}"></script>
+<script src="{{asset('js/slick.min.js')}}"></script>
 <script src="{{asset('js/customer.js')}}"></script>
 
 <script>
